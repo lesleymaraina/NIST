@@ -42,8 +42,9 @@ for f in os.listdir():
 	print chrom
 	print start
 
-#OS Error
+
 '''
+#OS Error
 Traceback (most recent call last):
   File "Match_Files.py", line 30, in <module>
     for f in os.listdir():
@@ -52,8 +53,8 @@ TypeError: listdir() takes exactly 1 argument (0 given)
 
 
 '''
-1. Find matches between values listed in crowdVar dataframe
-2. Ideally, find matches listed in 'start' and 'chrom' columns
+Find matches between values listed in crowdVar dataframe and the file names listedin the PDFs directory
+
 '''
 
 # Values from dataframe
