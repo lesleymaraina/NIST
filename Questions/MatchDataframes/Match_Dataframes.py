@@ -50,11 +50,9 @@ small_df.to_csv('all3.csv', index=False)
 2. Create a new dataframe with the matching rows
 '''
 
-all2 = pd.read_csv('/Users/lmc2/all2.csv')
-# print all2.head()
-df2 = all2[all2['B'] == all2['start']]
+df2 = small_df[small_df['chrom'] == large_df['chrom']]
 print df2.head()
 
-mask = (all2['B'] == all2['start'])
+mask = (small_df['start'] == large_df['start'])
 df3 = all2[mask]
 print df3.head()
