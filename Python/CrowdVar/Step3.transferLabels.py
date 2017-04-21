@@ -37,15 +37,15 @@ Find matches between 2 dataframes and create a new column with corresponding lab
 all_data_DEL['Label'] = -1
 
 for j, i in enumerate(range(all_data_DEL.shape[0])):
-	if j > 100:
+	if j > 100000:
 		break
 	start_value = all_data_DEL.loc[i, 'start']
 	start_indices = np.where(mend_DEL['start'] == start_value)[0].tolist()
-	# print(start_indices)
-	end_value = all_data_DEL.loc[i, 'end']
-	end_indices = np.where(mend_DEL['end'] == end_value)[0].tolist()
-	# print(end_indices)
-	index = set(start_indices) & set(end_indices)
+
+	# end_value = all_data_DEL.loc[i, 'end']
+	# end_indices = np.where(mend_DEL['end'] == end_value)[0].tolist()
+	# index = set(start_indices) & set(end_indices)
+	index = set(start_indices) 
 	if len(index) == 0:
 		continue
 	# if len(index) > 1:
@@ -59,15 +59,15 @@ for j, i in enumerate(range(all_data_DEL.shape[0])):
 all_data_DEL['CN0_prob'] = -1
 
 for j, i in enumerate(range(all_data_DEL.shape[0])):
-	if j > 100:
+	if j > 100000:
 		break
 	start_value = all_data_DEL.loc[i, 'start']
 	start_indices = np.where(mend_DEL['start'] == start_value)[0].tolist()
 	# print(start_indices)
-	end_value = all_data_DEL.loc[i, 'end']
-	end_indices = np.where(mend_DEL['end'] == end_value)[0].tolist()
+	# end_value = all_data_DEL.loc[i, 'end']
+	# end_indices = np.where(mend_DEL['end'] == end_value)[0].tolist()
 	# print(end_indices)
-	index = set(start_indices) & set(end_indices)
+	index = set(start_indices) 
 	if len(index) == 0:
 		continue
 	# if len(index) > 1:
@@ -80,15 +80,15 @@ for j, i in enumerate(range(all_data_DEL.shape[0])):
 all_data_DEL['CN1_prob'] = -1
 
 for j, i in enumerate(range(all_data_DEL.shape[0])):
-	if j > 100:
+	if j > 100000:
 		break
 	start_value = all_data_DEL.loc[i, 'start']
 	start_indices = np.where(mend_DEL['start'] == start_value)[0].tolist()
 	# print(start_indices)
-	end_value = all_data_DEL.loc[i, 'end']
-	end_indices = np.where(mend_DEL['end'] == end_value)[0].tolist()
+	# end_value = all_data_DEL.loc[i, 'end']
+	# end_indices = np.where(mend_DEL['end'] == end_value)[0].tolist()
 	# print(end_indices)
-	index = set(start_indices) & set(end_indices)
+	index = set(start_indices) 
 	if len(index) == 0:
 		continue
 	# if len(index) > 1:
@@ -101,15 +101,15 @@ for j, i in enumerate(range(all_data_DEL.shape[0])):
 all_data_DEL['CN2_prob'] = -1
 
 for j, i in enumerate(range(all_data_DEL.shape[0])):
-	if j > 100:
+	if j > 100000:
 		break
 	start_value = all_data_DEL.loc[i, 'start']
 	start_indices = np.where(mend_DEL['start'] == start_value)[0].tolist()
 	# print(start_indices)
-	end_value = all_data_DEL.loc[i, 'end']
-	end_indices = np.where(mend_DEL['end'] == end_value)[0].tolist()
-	# print(end_indices)
-	index = set(start_indices) & set(end_indices)
+	# end_value = all_data_DEL.loc[i, 'end']
+	# end_indices = np.where(mend_DEL['end'] == end_value)[0].tolist()
+	# # print(end_indices)
+	index = set(start_indices) 
 	if len(index) == 0:
 		continue
 	# if len(index) > 1:
