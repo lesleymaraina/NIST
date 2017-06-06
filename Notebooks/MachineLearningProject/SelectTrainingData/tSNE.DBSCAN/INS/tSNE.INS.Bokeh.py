@@ -140,21 +140,29 @@ dbscan = DBSCAN()
 labels = dbscan.fit_predict(Z)
 print("Unique labels: {}".format(np.unique(labels)))
 df['clusterLabel'] = labels
-df.to_csv('INS.tSNE.csv', index=False)
+df.to_csv('INS.tSNE_minSample_0.csv', index=False)
 
 # DBSCAN with SVD data
 dbscan = DBSCAN()
 labels = dbscan.fit_predict(Y)
 print("Unique labels: {}".format(np.unique(labels)))
 df['clusterLabel.SVD'] = labels
-df.to_csv('INS.tSNE.SVD.csv', index=False)
+df.to_csv('INS.tSNE.SVD_minSample_0.csv', index=False)
 
 # DBSCAN with raw data
 dbscan = DBSCAN()
 labels = dbscan.fit_predict(X)
 print("Unique labels: {}".format(np.unique(labels)))
 df['clusterLabel.raw'] = labels
-df.to_csv('INS.tSNE.raw.csv', index=False)
+df.to_csv('INS.tSNE.raw_minSample_0.csv', index=False)
+
+minSample0 = pd.read_csv('/Users/lmc2/NIST/Notebooks/MachineLearningProject/SelectTrainingData/tSNE.DBSCAN/INS/INS.tSNE_minSample_0.csv')
+minSample5 = pd.read_csv('/Users/lmc2/NIST/Notebooks/MachineLearningProject/SelectTrainingData/tSNE.DBSCAN/INS/INS.tSNE_minSample_5.csv')
+minSample10 = pd.read_csv('/Users/lmc2/NIST/Notebooks/MachineLearningProject/SelectTrainingData/tSNE.DBSCAN/INS/INS.tSNE_minSample_10.csv')
+minSample15 = pd.read_csv('/Users/lmc2/NIST/Notebooks/MachineLearningProject/SelectTrainingData/tSNE.DBSCAN/INS/INS.tSNE_minSample_15.csv')
+minSample20 = pd.read_csv('/Users/lmc2/NIST/Notebooks/MachineLearningProject/SelectTrainingData/tSNE.DBSCAN/INS/INS.tSNE_minSample_20.csv')
+
+
 
 
 ###########################################
@@ -199,7 +207,7 @@ dftsne['label.raw'] = df['clusterLabel.raw']
 # dftsne['cat2'].replace(to_replace=0, value=-1, inplace=True)
 # dftsne['cat'].replace(to_replace=0, value=-1, inplace=True)
 # df[df != 0] = value
-dftsne.to_csv('dftsne.csv', index=False)
+dftsne.to_csv('dftsne_ins.csv', index=False)
 
 '''
 Generate plots
