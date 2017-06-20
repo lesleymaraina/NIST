@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--
+This software was developed at the National Institute of Standards and
+Technology by employees of the Federal Government in the course of
+their official duties. Pursuant to title 17 Section 105 of the United
+States Code this software is not subject to copyright protection and is
+in the public domain. This software is an experimental system. NIST assumes
+no responsibility whatsoever for its use by other parties, and makes no
+guarantees, expressed or implied, about its quality, reliability, or
+any other characteristic. We would appreciate acknowledgement if the
+software is used.
+-->
+<html lang="en" data-ng-app="ngSvw">
+    <head>
+        <meta charset="utf-8">
+        <title>Web Cell Segmentation Verification</title>
+        <meta name="description" content="Web Segmentation Verification">
+
+        <!-- build:css app.css -->
+        <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        
+<!--         <link href="libs/angular-form-gen-custom/angular-form-gen.css" rel="stylesheet"> -->
+        
+        <link href="libs/WDZT/wdzt-deps.css" rel="stylesheet">
+
+        <link href="app.css" rel="stylesheet">
+        <!-- endbuild -->
+    </head>
+    <body data-flow-prevent-drop>
+        <header>
+            <div id="logo">
+                <a href="http://www.nist.gov"
+                   title="National Institute of Standards and Technology">
+                    National Institute of Standards and Technology
+                </a>
+            </div>
+        </header>
+
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <ul class="nav navbar-nav">
+					<li>
+					  <a id="menu1nav" href="index.html">Home</a>
+					</li>				
+                    <li ng-class="{active: $state.includes('validationSpunCoat06252015')}">
+                        <a data-ui-sref="validationSpunCoat06252015">Spun Coat 06252015</a>
+                    </li>
+                    <li ng-class="{active: $state.includes('validationSpunCoat07072015')}">
+                        <a data-ui-sref="validationSpunCoat07072015">Spun Coat 07072015</a>
+                    </li>
+                    <li ng-class="{active: $state.includes('validationMicrofiber06252015')}">
+                        <a data-ui-sref="validationMicrofiber06252015">Microfiber 06252015</a>
+                    </li>
+                    <li ng-class="{active: $state.includes('validationMicrofiber07072015')}">
+                        <a data-ui-sref="validationMicrofiber07072015">Microfiber 07072015</a>
+                    </li>
+                    <li ng-class="{active: $state.includes('validationMediumMicrofiber07102015')}">
+                        <a data-ui-sref="validationMediumMicrofiber07102015">Medium Microfiber 07102015</a>
+                    </li>
+                    <li ng-class="{active: $state.includes('validationMediumMicrofiber07232015')}">
+                        <a data-ui-sref="validationMediumMicrofiber07232015">Medium Microfiber 07232015</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container" data-ui-view></div>
+
+        <!-- build:js app.js -->
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="bower_components/rfc6570/rfc6570.js"></script>
+        <script src="bower_components/angular-hal/angular-hal.js"></script>
+        <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        
+<!--         <script src="libs/angular-form-gen-custom/angular-form-gen.js"></script> -->
+        
+        <!--<script src="wdzt/wdzt-service.js"></script>-->
+        <script src="libs/WDZT/WebDeepZoomToolkit-deps.js"></script>
+
+        <script src="app.js"></script>
+        
+        <script src="validationSpunCoat06252015/validation-service-SpunCoat06252015.js"></script>
+        <script src="validationSpunCoat06252015/validationSpunCoat06252015.js"></script>
+        
+        <script src="validationSpunCoat07072015/validation-service-SpunCoat07072015.js"></script>
+        <script src="validationSpunCoat07072015/validationSpunCoat07072015.js"></script>
+        
+        <script src="validationMicrofiber06252015/validation-service-Microfiber06252015.js"></script>
+        <script src="validationMicrofiber06252015/validationMicrofiber06252015.js"></script>
+        
+        <script src="validationMicrofiber07072015/validation-service-Microfiber07072015.js"></script>
+        <script src="validationMicrofiber07072015/validationMicrofiber07072015.js"></script>
+        
+        <script src="validationMediumMicrofiber07102015/validation-service-MediumMicrofiber07102015.js"></script>
+        <script src="validationMediumMicrofiber07102015/validationMediumMicrofiber07102015.js"></script>
+        
+        <script src="validationMediumMicrofiber07232015/validation-service-MediumMicrofiber07232015.js"></script>
+        <script src="validationMediumMicrofiber07232015/validationMediumMicrofiber07232015.js"></script>
+        
+        <!-- endbuild -->
+
+        <!-- build:config ignore.js -->
+        <script src="config.js"></script>
+        <!-- endbuild -->
+        
+        <hr>
+        
+        
+        <footer class="dzw-row">
+                <div class="dzw-cell">
+                    <div class="dzw-separator"></div>
+                    <p>
+                        The National Institute of Standards and Technology (NIST) is
+                        an agency of the 
+                        <a href="http://commerce.gov">U.S. Department of Commerce</a>.
+                    </p>
+
+                    <p>
+                        <a href="http://nist.gov/public_affairs/privacy.cfm">
+                            Privacy policy / security notice / accessibility statement</a>
+                        /
+                        <a href="http://nist.gov/public_affairs/disclaimer.cfm">
+                            Disclaimer</a>
+                        /
+                        <a href="http://nist.gov/director/foia/">
+                            Freedom of Information Act (FOIA)</a>
+                        /
+                        <a href="http://nist.gov/director/civil/nofearpolicy.cfm">
+                            No Fear Act Policy</a>
+                        /
+                        <a href="http://nist.gov/director/quality_standards.cfm">
+                            NIST Information Quality Standards</a>
+                        /
+                        <a href="http://nist.gov/public_affairs/envpolicy.cfm">
+                            Environmental Policy Statement</a>
+                    </p>
+                    <p>
+                        <strong>Date created:</strong> August 5, 2015 | 
+                        <strong>Last updated:</strong> August 5, 2015
+                    </p>
+                </div>
+            </footer>
+        
+    </body>
+</html>
