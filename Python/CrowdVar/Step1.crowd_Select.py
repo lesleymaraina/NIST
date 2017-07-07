@@ -19,7 +19,7 @@ import numpy as np
 
 # Load/Parse .txt file using pd.read_table()
 # colnames = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
-df = pd.read_csv('/Volumes/lesleydata/FinalProject/Data/BEDfile/verily2techfiltremain_svvizGTallcol.csv')
+df = pd.read_csv('/Users/lmc2/NIST/Notebooks/CrowdVariant/verily2techfiltremain_svvizGTallcol_SD_TR.csv')
 
 # print df.head
 # print df.head(5)
@@ -57,8 +57,8 @@ print results3.shape
 
 
 
-results.to_csv('/Volumes/lesleydata/FinalProject/Data/BEDfile/CrowdVar.txt', sep='\t', header=None, index=False)
-results.to_csv('/Volumes/lesleydata/FinalProject/Data/BEDfile/CrowdVar.tsv', sep='\t', header=None, index=False)
+results.to_csv('/Users/lmc2/NIST/Notebooks/CrowdVariant/Train/CrowdVar.txt', sep='\t', header=None, index=False)
+results.to_csv('/Users/lmc2/NIST/Notebooks/CrowdVariant/Train/CrowdVar.tsv', sep='\t', header=None, index=False)
 # # results_1to1000 = pd.DataFrame()
 # # results_1000to1366 = pd.DataFrame()
 # results_1to1000 = df.iloc[:1000,:]

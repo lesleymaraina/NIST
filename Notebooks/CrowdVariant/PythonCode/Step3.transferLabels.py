@@ -19,7 +19,7 @@ import sklearn as sol
 ############################################################
 # Load Data
 ############################################################
-all_data_DEL = pd.read_csv("/Users/lmc2/Desktop/NIHFAES/FinalProject/Train/CrowdVar.csv")
+all_data_DEL = pd.read_csv("/Users/lmc2/NIST/Notebooks/CrowdVariant/Train/CrowdVar.csv")
 
 '''
 Store Data in Dataframes
@@ -119,8 +119,8 @@ for j, i in enumerate(range(all_data_DEL.shape[0])):
 	all_data_DEL.loc[i, 'CN2_prob'] = np.median(mend_DEL.loc[index, 'CN2_prob'])
 
 print(all_data_DEL.head(10))
-all_data_DEL.to_csv('/Users/lmc2/Desktop/NIHFAES/FinalProject/Train/CrowdVar.Train.csv', index=False)
-all_data_DEL.to_csv('/Users/lmc2/Desktop/NIHFAES/FinalProject/Train/CrowdVar.Train.bed', index=False)
+all_data_DEL.to_csv('/Users/lmc2/NIST/Notebooks/CrowdVariant/Train/CrowdVar.Train.csv', index=False)
+all_data_DEL.to_csv('/Users/lmc2/NIST/Notebooks/CrowdVariant/Train/CrowdVar.Train.bed', index=False)
 
 
 
