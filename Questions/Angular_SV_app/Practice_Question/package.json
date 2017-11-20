@@ -1,0 +1,33 @@
+{
+  "name": "ship_project",
+  "version": "1.0.0",
+  "description": "cell structure survey README",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "browserify": "^14.4.0",
+    "http-server": "^0.10.0",
+    "karma": "^1.7.0",
+    "mysql": "^2.13.0",
+    "request": "^2.81.0",
+    "start": "^5.1.0",
+    "watchify": "^3.9.0"
+  },
+  "devDependencies": {
+    "karma-browserify": "^5.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a 0.0.0.0 -p 9000 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paipatrick/SHIP_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paipatrick/SHIP_project/issues"
+  },
+  "homepage": "https://github.com/paipatrick/SHIP_project#readme"
+}

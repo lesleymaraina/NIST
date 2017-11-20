@@ -1,0 +1,91 @@
+
+
+<div class="row">
+<div class="row">
+		<h1>Segmentation validation - Dataset {{data.name}}</h1>
+	</div>
+</div>
+	
+
+	<div class="row">
+		<progressbar value="currentView.index+1" max="data.size">
+			<i>{{currentView.index + 1}} / {{data.size}}</i>
+		</progressbar>
+		
+	</div>
+
+	<div class="row">
+		<label>Stack name: </label> {{currentView.name}}
+		<div class="row">
+			<button type="submit" class="btn btn-default btn-lg" ng-click="previous();"
+                ng-disabled="(validationForm.$dirty && validationForm.$invalid) ||
+                    validationForm.$pristine">
+	            Previous
+	        </button>
+			
+			<img ng-src="{{currentView.path}}" style="max-width:70%; height:auto;" />
+			
+	        <button type="submit" class="btn btn-default btn-lg" ng-click="next();"
+	                ng-disabled="(validationForm.$dirty && validationForm.$invalid) ||
+	                    validationForm.$pristine">
+	            Next
+	        </button>
+		</div>
+		<div class="row">
+			<h1>How would you classify this segmentation?</h1>
+		</div>
+		<div class="row">
+	        <button type="submit" class="btn btn-default btn-lg" ng-click="pressGood();"
+	                ng-disabled="(validationForm.$dirty && validationForm.$invalid) ||
+	                    validationForm.$pristine">
+	            Good
+	        </button>
+	        
+	        <button type="submit" class="btn btn-default btn-lg" ng-click="pressCorrect();"
+	                ng-disabled="(validationForm.$dirty && validationForm.$invalid) ||
+	                    validationForm.$pristine">
+	            Correct
+	        </button>
+	        
+	        <button type="submit" class="btn btn-default btn-lg" ng-click="pressInaccurate();"
+	                ng-disabled="(validationForm.$dirty && validationForm.$invalid) ||
+	                    validationForm.$pristine">
+	            Inaccurate
+	        </button>
+	        
+	        <button type="submit" class="btn btn-default btn-lg" ng-click="pressMissed();"
+	                ng-disabled="(validationForm.$dirty && validationForm.$invalid) ||
+	                    validationForm.$pristine">
+	            Missed
+	        </button>
+	    </div>
+        
+        <br/>
+        <div class="row">
+			<label>Current classification: {{data.segmentations[currentView.index].status}}</label>
+		</div>
+        
+        <div class="row">
+			<h1>Your classification for this dataset</h1>
+		</div>
+		<div class="row">
+			<a id="downloadbtn" href ="" class="btn btn-default btn-lg" ng-click="pressDownloadCsv();"
+                >
+            Download the CSV file
+        </a>
+        
+		</div>
+        <br/>
+        <div class="row">
+	        <button class="btn btn-default btn-lg" ng-click="displayCsv = !displayCsv">Display CSV below</button>
+			<hr>
+			<div collapse="displayCsv">
+				<div 
+					ng-repeat="segmentation in data.segmentations">
+					{{segmentation.name}},{{segmentation.status}}
+				</div>
+			</div>
+		</div>
+  	</div>
+
+

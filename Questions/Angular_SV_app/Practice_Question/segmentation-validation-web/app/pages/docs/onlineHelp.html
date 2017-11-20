@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>On-Line Help for Web Cell Segmentation and Cell-Scaffold Contact Verification</title>
+        <link rel="icon"
+              href="https://isg.nist.gov/deepzoomweb/resources/img/favicon.ico;jsessionid=21CE77F2344B143AD8BF5B4A4F06CCA0"
+              type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="../../libs/nist-layout/css/reset.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="../../libs/nist-layout/css/main_style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="../../libs/nist-layout/css/layout.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="../../libs/nist-layout/css/bootstrap.css">
+        <!-- <script type="text/javascript" language="javascript" src="../../js/jquery/jquery.min.js"></script> -->
+        <script src="//code.jquery.com/jquery-2.2.3.js"></script>  
+        <script type="text/javascript" language="javascript" src="../../libs/nist-layout/site.js"></script>
+        <script type="text/javascript" src="../../libs/nist-layout/holder.js"></script>
+
+    </head>
+    <body id="menu1">
+
+        <div class="container">
+            <div class="row">
+                <a href="http://www.nist.gov/index.html"><img src="../../img/bg_header_gradient.png"
+                                                              alt="National Institute of Standards and Technology" width="970"/></a>
+
+                <div id="menuContainer">
+                    <ul id="menu">
+                        <li><a id="menu1nav" href="../../index.html">Home</a></li>
+						<li><a id="menu2nav" href="../../indexCell.html">Cell Segmentation</a></li>								
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+					<div class="row">
+
+		
+					
+                        <h1>On-Line Help for Web Cell Segmentation and Cell-Scaffold Contact Verification</h1>
+	
+		<h3> Cell Segmentation:</h2>
+		<p>
+		The inspection of 3D z-stack segmentation of cells is enabled by presenting three orthogonal max-intensity projections of 3D cell z-stacks next to three orthogonal max-intensity projections of 3D cell segmentation. 
+		<BR>
+		The 3D cell segmentation method follows the method paper and the biological study described in:
+		<dd><ul>  
+		<li>
+		Bajcsy P, Simon M, Florczyk S, Simon C, Juba D, Brady M. A Method for the Evaluation of Thousands of Automated 3D Stem Cell Segmentations. J Microsc. 2015;260(3):363–76. doi:10.1111/jmi.12303.
+		</li>
+		<li>
+		Florczyk SJ, Simon M, Juba D, et al. 3D Stem Cell Morphotyping of Tissue Engineering Scaffold Niches. In: The 2015 Society for Biomaterials Annual Meeting. Charlotte, NC: Society for Biomaterials; 2015. Available at: http://biomaterials.org/events-future-meetings/2015-call-ideas.
+		</li>
+		</ul></dd>	
+		
+	The labels for each cell segmentation span good, correct, incorrect, and missed.
+	<dd><ul>  
+		<li>
+		<b>Good:</b>Visually, the shape is accurate (at least 90%) and close to perfect, this segmentation is valid.
+		</li>
+		<li>
+		<b>Correct:</b> Visually, the shape is accurate (at least 75%), but some small parts can be over or under segmented, this segmentation is valid.
+		</li>
+		<li>
+		<b>Incorrect:</b> The shape is not accurate enough (less than 75%), this segmentation should be discarded.
+		</li>
+		<li>
+		<b>Missed:</b> The segmented object is not the cell of interest, this segmentation should be discarded.
+		</li>
+	</ul></dd>	
+	</p>
+<p>	
+	One can step through all pairs of cell intensities and cell segmentation results by clicking on the buttons "Next" or "Previous". Labels are assigned to each segmentation by clicking on one of the buttons with the labels under the heading "How would you classify this contact detection?". A user can see already assigned or updated labels by clicking on "Display CVS below". When a user completes the labeling, all assigned labels can be downloaded by clicking on the button "Download CVS".
+<BR>
+<b> WARNING: Please, do not reload current web pages during labeling since you would lose all already assigned labels. All labels are kept in the browser cache during a labeling session and therefore switching to a different tab or web page will cause losing the labels. </b>
+	
+	</p>
+		
+		
+	
+
+		<h3> Cell-Contact Measurement:</h3>
+		<p>
+		The inspection of 3D cell-contact measurements is enabled by presenting color movies with rotating content around main axes. Specifically, the red-green-blue color is utilized for showing cell (red), scaffold (green) and contacts (blue), and the rotations are around X and Y axes. The arrangement of videos follows a tabular style with two rows corresponding to the two rotations around X (top row) and around Y (bottom row), and three columns. The three columns present [segmented cell, gamma corrected scaffold intensities, detected contacts] information (left column), [gamma corrected scaffold intensities, detected contacts] information (middle column), and [detected contacts] information (right column). 
+		
+				<br>
+		              <figure>
+                            <img src="img/contactLayout.png" alt="contact layout" />
+                            <figcaption>
+                                The layout of videos presenting 3D data by combining cell, scaffold and contact information (columns) and rotating the content around X and Y axes (rows). 
+                            </figcaption>
+                        </figure>
+	<br>
+			
+		
+		The interpretation of rendered colors for the above assignment is shown in the figure below.
+		<br>
+		              <figure>
+                            <img src="img/ColorMixingContent.png" alt="color mixing" />
+                            <figcaption>
+                                With the color assignments to individual red, green, and blue channels, and the movie frame rendering using alpha-blending, a visual interpretation of perceived colors will map into the color mixing scheme illustrated in this figure. For example, if a rendered pixel corresponds to a ray intersecting z-stacks labeled as contact (blue) and cell (red) then the rendered color will be purple (intersection of red and blue circles).  
+                            </figcaption>
+                        </figure>
+		<br>
+		The gamma value for correcting scaffold intensities was set to 1.4 based on visual inspections of gamma corrected zstacks combined with contact points for a range of gamma values between 1.0 and 2.5 (delta gamma = 0.1, two z-stacks, two contact detection methods). The movies corresponding to these settings and used for visual inspection are accessible from the menu bar. 
+		<BR />
+		<BR />
+		Several related movies can be viewed synchronously or asynchronously, and embedded and original resolutions. Each movie is constructed to last about 9 seconds with 128 frames played at 15 frames per second. All movies are stored as mpeg4 files following the H.264 video codec. Due to the browser support of video players, we recommend viewing the pages in Mozilla Firefox or Google Chrome (see <a id="mp4" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats">more information about the browser support.</a>) 
+		</p>
+		<p>
+		
+		The cell-scaffold contact points have been detected by 8 methods out of which we selected one statistical and one geometrical model-based method based on orthogonal measurements of single fibers using a scanning electron microscope (SEM). The paper describing the modeling, validation, and verification is work-in-progress.
+		</p>
+	<p>
+		The labels for each cell-scaffold contact detection span excellent, acceptable and bad. 
+		<BR>
+		For the statistical model-based method reporting contact point cloud, the following labels were defined:
+		<BR>
+	<dd><ul>  
+		<li>
+		<b>Excellent:</b> Visually, error is not exceeding 1/12th of the total volume of cell.
+		</li>
+		<li>
+		<b>Acceptable:</b> Visually, combined errors do not exceed ~1/3rd of the total volume of cell.
+		</li>
+		<li>
+		<b>Bad:</b> Visually, combined errors exceed ~1/3rd of the total volume of cell.
+		</li>
+	</ul></dd>	
+	
+	For the geometrical model-based method reporting contact surfaces, the following labels were defined:
+		<BR>
+	<dd><ul>  
+		<li>
+		<b>Excellent:</b> Visually, error is not exceeding 1/12th of the total surface of cell.
+		</li>
+		<li>
+		<b>Acceptable:</b> Visually, combined errors do not exceed ~1/3rd of the total surface of cell.
+		</li>
+		<li>
+		<b>Bad:</b> Visually, combined errors exceed ~1/3rd of the total surface of cell.
+		</li>
+	</ul></dd>	
+	
+	
+	The browsing and labeling of contact points follow the same interface as the labeling of cell segmentation results. 
+	<BR>
+	<b> WARNING: Please, do not reload current web pages during labeling since you would lose all already assigned labels. All labels are kept in the browser cache during a labeling session and therefore switching to a different tab or web page will cause losing the labels. </b>
+	</p>
+
+
+                    </div>
+
+                <!-- </div> -->
+
+            </div>   
+
+        </div>
+
+
+        <!-- Footer Starts-->
+        <div class="container">
+            <div class="row footer">
+                <div class="col-xs-12">
+                    <p>
+                        The National Institute of Standards and Technology (NIST) is
+                        an agency of the
+                        <a href="http://commerce.gov">U.S. Department of Commerce</a>.
+                    </p>
+
+                    <p>
+                        <a href="http://nist.gov/public_affairs/privacy.cfm">
+                            Privacy policy / security notice / accessibility statement</a>
+                        /
+                        <a href="http://nist.gov/public_affairs/disclaimer.cfm">
+                            Disclaimer</a>
+                        /
+                        <a href="http://nist.gov/director/foia/">
+                            Freedom of Information Act (FOIA)</a>
+                        /
+                        <a href="http://nist.gov/director/civil/nofearpolicy.cfm">
+                            No Fear Act Policy</a>
+                        /
+                        <a href="http://nist.gov/director/quality_standards.cfm">
+                            NIST Information Quality Standards</a>
+                        /
+                        <a href="http://nist.gov/public_affairs/envpolicy.cfm">
+                            Environmental Policy Statement</a>
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12"><strong>Date created:</strong> April 10, 2014 | <strong>Last
+                        updated:</strong>
+                    <script type="text/javascript">
+                        if (document.lastModified != 'undefined') {
+                            document.write(format_date_mmmddyy(document.lastModified));
+                        }
+
+
+
+
+
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Ends-->
+
+        <!--
+                <script src="../../libs/nist-layout/analytics.js" async=""></script>
+                <script>
+                        (function(i, s, o, g, r, a, m) {
+                                i['GoogleAnalyticsObject'] = r;
+                                i[r] = i[r] || function() {
+                                        (i[r].q = i[r].q || []).push(arguments)
+                                }, i[r].l = 1 * new Date();
+                                a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+                                a.async = 1;
+                                a.src = g;
+                                m.parentNode.insertBefore(a, m)
+                        })(window, document, 'script',
+                                        '//www.google-analytics.com/analytics.js', 'ga');
+        
+                        ga('create', 'UA-45172783-4', 'nist.gov');
+                        ga('send', 'pageview');
+                </script>
+        -->
+
+    </body>
+</html>

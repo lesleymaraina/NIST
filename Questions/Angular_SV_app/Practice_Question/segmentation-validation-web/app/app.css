@@ -1,0 +1,36 @@
+/* app css stylesheet */
+
+#logo {
+    background-color: rgb(70, 122, 162)
+}
+
+#logo a {
+    display: block;
+    max-width: 960px;
+    height: 84px;
+    background-image: url(img/bg_header_gradient.png);
+    background-repeat: no-repeat;
+    color: rgba(0, 0, 0, 0); /* hide the text */
+}
+
+.imageValidation {
+  background-size: 100% auto;
+}
+
+h1 {
+	border-bottom: 1pt solid #4f81bd;
+color: #17365d;
+font-size: 24px;
+font-weight: 500;
+padding: 5px;
+}
+
+h3 {
+	display: block;
+font-size: 1.17em;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}

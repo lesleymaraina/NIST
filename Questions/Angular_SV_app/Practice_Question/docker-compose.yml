@@ -1,0 +1,26 @@
+cell_structure:
+  build: .
+  restart: always
+  container_name: cell_structure
+  volumes:
+    - ./data:/sites/segmentation-validation-web/app/data
+    - ./img:/sites/segmentation-validation-web/app/img
+
+nginx_segmentation:
+  image: nginx:latest
+  restart: always
+  container_name: nginx_segmentation
+  ports:
+    - "9000:9000"
+#    - "443:443"
+#    - "80:80"
+  links:
+    - cell_structure
+  volumes_from:
+    - cell_structure
+  volumes:
+    - ./nginx/nginx.conf:/etc/nginx/nginx.conf            # nginx configration file
+    - ./nginx/default.conf:/etc/nginx/conf.d/default.conf # nginx configuration file for application
+#    - ./nginx/server.cer:/etc/nginx/ssl/server.cer        # SSL cert
+#    - ./nginx/server.key:/etc/nginx/ssl/server.key        # SSL key
+    - ./nginx/logs:/var/log/nginx                         # nginx logs mounted locally

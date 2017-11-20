@@ -1,0 +1,21 @@
+{
+  "name": "ng-svw",
+  "description": "Angular client for Web Segmentation Validation",
+  "version": "0.0.1",
+  "homepage": "https://isg.nist.gov",
+  "license": "Public Domain",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-ui-router": "~0.2",
+    "angular-hal": "~0.1",
+    "angular-loader": "1.2.x",
+    "angular-mocks": "~1.2.x",
+    "angular-bootstrap": "~0.12",
+    "html5-boilerplate": "~4.3.0",
+    "bootstrap": "~3.3.4",
+    "angular-form-gen": "~0.1",
+    "q": "~2.0.2"
+  }
+}
