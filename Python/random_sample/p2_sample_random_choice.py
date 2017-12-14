@@ -8,6 +8,8 @@ Code
 - random sample with pandas function
 - Alternative for selecting weighted random sample 
 - Run code with and without virtualenv
+- !!! Revision : for a weighted sample, just pass in the count to df.sample
+- Documentation : https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.sample.html
 '''
 
 ##########################################
