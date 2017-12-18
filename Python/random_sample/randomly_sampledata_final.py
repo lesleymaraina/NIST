@@ -234,14 +234,14 @@ df3.to_csv('/Volumes/lesleydata/RF_model_trainingData_test/train/all_size_bins.c
 
 # The numbers below are from the 'random.choices' code above
 # This is a weighted selection of the number of each category that should be included in the analysis
-df_20to50_2 = df_20to50_.sample(1599)
-df_50to100_2 = df_50to100_.sample(407)
-df_100to300_2 = df_100to300_.sample(259)
-df_300to400_2 = df_300to400_.sample(227)
-df_400to500_2 = df_400to500_.sample(33)
-df_500to1000_2 = df_500to1000_.sample(83)
-df_1000to6000_2 = df_1000to6000_.sample(115)
-df_6000_2 = df_6000_.sample(27)
+df_20to50_2 = df_20to50_.sample(weights = 1599)
+df_50to100_2 = df_50to100_.sample(weights = 407)
+df_100to300_2 = df_100to300_.sample(weights = 259)
+df_300to400_2 = df_300to400_.sample(weights = 227)
+df_400to500_2 = df_400to500_.sample(weights = 33)
+df_500to1000_2 = df_500to1000_.sample(weights = 83)
+df_1000to6000_2 = df_1000to6000_.sample(weights = 115)
+df_6000_2 = df_6000_.sample(weights = 27)
 
 all_ = pd.concat([df_20to50_2, df_50to100_2, df_100to300_2, df_300to400_2, df_400to500_2, df_500to1000_2, df_1000to6000_2, df_6000_2], axis=0)
 all_ = all_.drop_duplicates()
