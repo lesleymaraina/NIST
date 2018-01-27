@@ -1,0 +1,14 @@
+variant	sample	allele	key	value
+Insertion::chr15:28,669,995-28,669,996;len=5703	NA24385_GRCh37_HP1	amb	count	2
+Insertion::chr15:28,669,995-28,669,996;len=5703	NA24385_GRCh37_HP1	amb	reason_flanking	1
+Insertion::chr15:28,669,995-28,669,996;len=5703	NA24385_GRCh37_HP1	amb	reason_multimapping	1
+Insertion::chr15:28,669,995-28,669,996;len=5703	NA24385_GRCh37_HP1	amb	alnScore_mean	407.5
+Insertion::chr15:28,669,995-28,669,996;len=5703	NA24385_GRCh37_HP1	amb	alnScore_std	142.5
+Insertion::chr15:28,669,995-28,669,996;len=5703	NA24385_GRCh37_HP1	amb	insertSize_mean	380.5
+Insertion::chr15:28,669,995-28,669,996;len=5703	NA24385_GRCh37_HP1	amb	insertSize_std	216.5
+Insertion::chr15:28,669,995-28,669,996;len=5703	NA24143_GRCh37_HP1	amb	count	1
+Insertion::chr15:28,669,995-28,669,996;len=5703	NA24143_GRCh37_HP1	amb	reason_flanking	1
+Insertion::chr15:28,669,995-28,669,996;len=5703	NA24143_GRCh37_HP1	amb	alnScore_mean	554.0
+Insertion::chr15:28,669,995-28,669,996;len=5703	NA24143_GRCh37_HP1	amb	alnScore_std	0.0
+Insertion::chr15:28,669,995-28,669,996;len=5703	NA24143_GRCh37_HP1	amb	insertSize_mean	478.0
+Insertion::chr15:28,669,995-28,669,996;len=5703	NA24143_GRCh37_HP1	amb	insertSize_std	0.0

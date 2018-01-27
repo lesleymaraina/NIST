@@ -6,6 +6,11 @@ Description
 - 10X tsv files have different names than original tsv files b/c BAM files from OAK directory were used.
 - Need to switch back to old file names in order for R script to run
 - Run code in python 3.6 env - virtualenv py2
+- Create 4 Folders:
+	- InputFiles
+	- OutputFiles
+	- OutputFile2
+	- OutputFileFinal
 
 
 Resources
