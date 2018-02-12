@@ -51,7 +51,7 @@
 
       <!-- Show Variant Name and Size -->
 
-     <div class="clearfix mobile-collapse" style="margin-bottom:2.5%;margin-top:8.5%;">
+     <div class="clearfix mobile-collapse" style="margin-bottom:2.5%;margin-top:12.5%;">
         <label>Variant: </label> <a href = "#">DEL 1:4000-4030</a>
         <label>Size: </label> <a href = "#">30</a>
       </div>
@@ -106,53 +106,93 @@
       <!--/Carousel-->
       
       <!-- Survey -->
+  
       <div class="one-third one-third-second mobile-collapse">
-            <fieldset class="form-group">
-              <legend>Question 1</legend>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                  Option 1
-                </label>
-              </div>
-              <div class="form-check">
-              <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
-                  Option 2
-                </label>
-              </div>
-              <div class="form-check">
-              <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-                  Option 3
-                </label>
-              </div>
-            </fieldset>
-      </div>
 
-      <div class="one-third one-third-second mobile-collapse">
-            <fieldset class="form-group">
-              <legend>Question 2</legend>
+      <div style="width:57%; padding-right: 5%; float:left;">
+
+           
+              <legend style="font-size:18px"><b>Genotype:</b> If a variant >= 20bp exists at this site, select the genotype for this variant:</legend>
               <div class="form-check">
                 <label class="form-check-label">
                   <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                  Option 1
+                  Homozygous Reference
                 </label>
               </div>
               <div class="form-check">
               <label class="form-check-label">
                   <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
-                  Option 2
+                  Heterozygous Variant
                 </label>
               </div>
               <div class="form-check">
               <label class="form-check-label">
                   <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-                  Option 3
+                  Homozygous Variant
+                </label>
+              </div>
+              <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                  Complex [ie: 2+ variants in this region] or difficult
+                </label>
+              </div>
+          
+
+    </div>
+
+      <div style="width:100%;">
+            <fieldset class="form-group">
+              <legend style="font-size:18px"><b>Genotype Confidence:</b> Note confidence in the selected genotype:</legend>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                  2 [most confident]
+                </label>
+              </div>
+              <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                  1
+                </label>
+              </div>
+              <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                  0 [least confident]
                 </label>
               </div>
             </fieldset>
       </div>
+<div> 
+   
+
+<div style="float:left; width:50%; padding-left:2.5%; height:250px;">
+            <fieldset class="form-group">
+              <legend style="font-size:18px"><b>Breakpoint and Size Accuracy:</b></legend>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                  Within 10% of the size of the variant
+                </label>
+              </div>
+              <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                  Not within 10% of the size of the variant
+                </label>
+              </div>
+              <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                  Unsure
+                </label>
+              </div>
+            </fieldset>
+    </div>
+
+    </div>
+ </div>
 
       <!--/Survey-->
             
