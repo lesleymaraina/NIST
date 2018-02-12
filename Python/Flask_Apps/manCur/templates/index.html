@@ -1,3 +1,5 @@
+{% from "_render_field.html" import render_radio_field %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -109,7 +111,7 @@
   
       <div class="one-third one-third-second mobile-collapse">
 
-      <div style="width:57%; padding-right: 5%; float:left;">
+      <!-- <div style="width:57%; padding-right: 5%; float:left;">
 
            
               <legend style="font-size:18px"><b>Genotype:</b> If a variant >= 20bp exists at this site, select the genotype for this variant:</legend>
@@ -127,19 +129,26 @@
               </div>
               <div class="form-check">
               <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="gt1" id="optionsRadios3" value="option3" disabled>
+                  <input type="radio" class="form-check-input" name="gt1" id="optionsRadios3" value="option3">
                   Homozygous Variant
                 </label>
               </div>
               <div class="form-check">
               <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="gt1" id="optionsRadios4" value="option4" disabled>
+                  <input type="radio" class="form-check-input" name="gt1" id="optionsRadios4" value="option4">
                   Complex [ie: 2+ variants in this region] or difficult
                 </label>
               </div>
           
 
+    </div> -->
+
+    <div style="width:57%; padding-right: 5%; float:left;">   
+    {{ render_radio_fields(form.radios)}}          
+
     </div>
+
+
 
       <div style="width:100%;">
             <fieldset class="form-group">
@@ -158,7 +167,7 @@
               </div>
               <div class="form-check">
               <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="gt_conf2" id="optionsRadios3" value="option3" disabled>
+                  <input type="radio" class="form-check-input" name="gt_conf2" id="optionsRadios3" value="option3">
                   0 [least confident]
                 </label>
               </div>
@@ -184,7 +193,7 @@
               </div>
               <div class="form-check">
               <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="bp_size3" id="optionsRadios3" value="option3" disabled>
+                  <input type="radio" class="form-check-input" name="bp_size3" id="optionsRadios3" value="option3">
                   Unsure
                 </label>
               </div>

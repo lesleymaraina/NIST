@@ -1,0 +1,13 @@
+{% macro render_radio_fields(field) %}
+<legend style="font-size:18px"><b>Genotype:</b> If a variant >= 20bp exists at this site, select the genotype for this variant:</legend>
+              <div class="form-check">
+              	<label class="form-check-label">{{ field.label.text }}</label>
+              	{% subfield in field %}
+              	<div class="radio">
+              		<label>
+              			{{ subfield }}
+              			{{ subfield.label.text }}
+              		</label>
+              	</div>
+              	{% endfor %}
+{% endmacro %}
