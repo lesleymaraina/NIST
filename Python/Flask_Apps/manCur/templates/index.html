@@ -1,4 +1,4 @@
-{% from "_render_field.html" import render_radio_field %}
+{% from "_render_field.html" import render_radio_fields %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -144,13 +144,14 @@
     </div> -->
 
     <div style="width:57%; padding-right: 5%; float:left;">   
-    {{ render_radio_fields(form.radios)}}          
-
+    {{ render_radio_fields(form.radios)}} 
+    {{ render_radio_fields(form.radios2)}}          
+    {{ render_radio_fields(form.radios3)}} 
     </div>
 
 
 
-      <div style="width:100%;">
+    <!--   <div style="width:100%;">
             <fieldset class="form-group">
               <legend style="font-size:18px"><b>Genotype Confidence:</b> Note confidence in the selected genotype:</legend>
               <div class="form-check">
@@ -174,7 +175,7 @@
             </fieldset>
       </div>
 <div> 
-   
+    -->
 
 <div style="float:left; width:50%; padding-left:2.5%; height:250px;">
             <fieldset class="form-group">
@@ -198,7 +199,7 @@
                 </label>
               </div>
             </fieldset>
-    </div>
+  </div>
 
     </div>
  </div>
