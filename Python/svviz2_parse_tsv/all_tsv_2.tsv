@@ -1,0 +1,361 @@
+filename	sample	allele	key	value
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	count	205
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	weighted_count	106.675
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	overlap_0.alt_part	69.06829268292682
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	count_0.alt_part_seq	179
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	count_0.alt_part_pair	26
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	extension_0.alt_part	295.6439024390244
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	count	149
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	weighted_count	68.45
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	overlap_0.ref_part	92.36036036036036
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	overlap_1.ref_part	65.11805555555556
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	count_0.ref_part_seq	65
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	count_1.ref_part_seq	133
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	count_0.ref_part_pair	46
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	count_1.ref_part_pair	11
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	extension_0.ref_part	166.42342342342343
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	extension_1.ref_part	217.85416666666666
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x		GL_count	[-166.76484824   -3.29913479  -95.15464659]
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x		GQ_count	[  0. 200.   0.]
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x		GT_count	0/1
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x		GL_mapq	[-145.44168383   -3.28588395  -78.94649658]
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x		GQ_mapq	[  0. 200.   0.]
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x		GT_mapq	0/1
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x		GL_weighted	[-90.06982131  -3.02506618 -41.47718447]
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x		GQ_weighted	[  0. 200.   0.]
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x		GT_weighted	0/1
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	0.region	44.51418439716312
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	2.region	122.0061919504644
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	0.region	70.9391891891892
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	1.region	27.163265306122447
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	2.region	102.83009708737865
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	0_n_mismatch_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	0_n_mismatch_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	0_n_indel_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	0_n_indel_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	0_n_total	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	2_n_mismatch_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	2_n_mismatch_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	2_n_indel_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	2_n_indel_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	alt	2_n_total	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	0_n_mismatch_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	0_n_mismatch_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	0_n_indel_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	0_n_indel_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	0_n_total	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	1_n_mismatch_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	1_n_mismatch_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	1_n_indel_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	1_n_indel_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	1_n_total	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	2_n_mismatch_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	2_n_mismatch_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	2_n_indel_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	2_n_indel_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	ref	2_n_total	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	0_n_mismatch_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	0_n_mismatch_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	0_n_indel_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	0_n_indel_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	0_n_total	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	1_n_mismatch_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	1_n_mismatch_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	1_n_indel_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	1_n_indel_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	1_n_total	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	2_n_mismatch_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	2_n_mismatch_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	2_n_indel_low	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	2_n_indel_high	0
+HG2_Ill_GATKHC_1.del_1_10403	HG002_Ill_150bp_300x	amb	2_n_total	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	count	190
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	weighted_count	97.90000000000006
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	overlap_0.alt_part	72.52631578947368
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	count_0.alt_part_seq	171
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	count_0.alt_part_pair	19
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	extension_0.alt_part	296.0842105263158
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	count	162
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	weighted_count	72.65
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	overlap_0.ref_part	85.75206611570248
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	overlap_1.ref_part	62.11409395973154
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	count_0.ref_part_seq	72
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	count_1.ref_part_seq	136
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	count_0.ref_part_pair	49
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	count_1.ref_part_pair	13
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	extension_0.ref_part	147.7520661157025
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	extension_1.ref_part	213.21476510067114
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GL_count	[-146.69633809   -1.85442144 -110.89123726]
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GQ_count	[  0. 200.   0.]
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GT_count	0/1
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GL_mapq	[-130.07398059   -1.98447032  -91.71137257]
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GQ_mapq	[  0. 200.   0.]
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GT_mapq	0/1
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GL_weighted	[-78.94361519  -2.01387446 -46.97477517]
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GQ_weighted	[  0. 200.   0.]
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GT_weighted	0/1
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	0.region	45.19847328244275
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	2.region	123.54237288135593
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	0.region	75.74096385542168
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	1.region	25.079268292682926
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	2.region	101.76635514018692
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	0_n_mismatch_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	0_n_mismatch_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	0_n_indel_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	0_n_indel_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	0_n_total	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	2_n_mismatch_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	2_n_mismatch_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	2_n_indel_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	2_n_indel_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	2_n_total	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	0_n_mismatch_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	0_n_mismatch_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	0_n_indel_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	0_n_indel_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	0_n_total	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	1_n_mismatch_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	1_n_mismatch_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	1_n_indel_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	1_n_indel_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	1_n_total	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	2_n_mismatch_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	2_n_mismatch_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	2_n_indel_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	2_n_indel_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	2_n_total	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	0_n_mismatch_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	0_n_mismatch_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	0_n_indel_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	0_n_indel_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	0_n_total	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	1_n_mismatch_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	1_n_mismatch_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	1_n_indel_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	1_n_indel_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	1_n_total	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	2_n_mismatch_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	2_n_mismatch_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	2_n_indel_low	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	2_n_indel_high	0
+HG2_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	2_n_total	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	count	193
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	weighted_count	102.5
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	overlap_0.alt_part	65.860103626943
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	count_0.alt_part_seq	175
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	count_0.alt_part_pair	18
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	extension_0.alt_part	306.0362694300518
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	count	155
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	weighted_count	68.3
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	overlap_0.ref_part	87.35897435897436
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	overlap_1.ref_part	61.785234899328856
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	count_0.ref_part_seq	69
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	count_1.ref_part_seq	139
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	count_0.ref_part_pair	48
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	count_1.ref_part_pair	10
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	extension_0.ref_part	158.67521367521368
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	extension_1.ref_part	209.79194630872485
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x		GL_count	[-152.06258913   -2.26939728 -103.4699523 ]
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x		GQ_count	[  0. 200.   0.]
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x		GT_count	0/1
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x		GL_mapq	[-133.4335132    -2.39272772  -84.84087636]
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x		GQ_mapq	[  0. 200.   0.]
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x		GT_mapq	0/1
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x		GL_weighted	[-85.73645551  -2.69170037 -42.25883308]
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x		GQ_weighted	[  0. 200.   0.]
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x		GT_weighted	0/1
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	0.region	41.09811320754717
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	2.region	122.87459807073955
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	0.region	73.29299363057325
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	1.region	27.129032258064516
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	2.region	100.31428571428572
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	0_n_mismatch_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	0_n_mismatch_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	0_n_indel_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	0_n_indel_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	0_n_total	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	2_n_mismatch_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	2_n_mismatch_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	2_n_indel_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	2_n_indel_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	alt	2_n_total	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	0_n_mismatch_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	0_n_mismatch_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	0_n_indel_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	0_n_indel_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	0_n_total	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	1_n_mismatch_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	1_n_mismatch_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	1_n_indel_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	1_n_indel_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	1_n_total	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	2_n_mismatch_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	2_n_mismatch_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	2_n_indel_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	2_n_indel_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	ref	2_n_total	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	0_n_mismatch_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	0_n_mismatch_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	0_n_indel_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	0_n_indel_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	0_n_total	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	1_n_mismatch_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	1_n_mismatch_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	1_n_indel_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	1_n_indel_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	1_n_total	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	2_n_mismatch_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	2_n_mismatch_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	2_n_indel_low	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	2_n_indel_high	0
+HG2_Ill_svaba_2.del_1_10403	HG002_Ill_150bp_300x	amb	2_n_total	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	count	167
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	weighted_count	55.90000000000001
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	overlap_0.alt_part	98.34328358208955
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	overlap_1.alt_part	76.9047619047619
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	count_0.alt_part_seq	81
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	count_0.alt_part_pair	53
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	count_1.alt_part_seq	95
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	count_1.alt_part_pair	52
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	extension_0.alt_part	183.53731343283582
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	extension_1.alt_part	152.23809523809524
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	count	104
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	weighted_count	48.10000000000001
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	overlap_0.ref_part	82.04444444444445
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	overlap_1.ref_part	88.68604651162791
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	count_0.ref_part_seq	69
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	count_1.ref_part_seq	41
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	count_0.ref_part_pair	21
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	count_1.ref_part_pair	45
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	extension_0.ref_part	180.65555555555557
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	extension_1.ref_part	169.5
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x		GL_count	[-142.52210582   -4.51248032  -61.96062896]
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x		GQ_count	[  0. 200.   0.]
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x		GT_count	0/1
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x		GL_mapq	[-104.90916546   -2.71823595  -56.31652863]
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x		GQ_mapq	[  0. 200.   0.]
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x		GT_mapq	0/1
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x		GL_weighted	[-42.82774378  -1.20791663 -33.87646858]
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x		GQ_weighted	[  0. 200.   0.]
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x		GT_weighted	0/1
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	0.region	79.48837209302326
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	1.region	59.802547770700635
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	2.region	83.03846153846153
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	0.region	81.808
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	3.re	40.229166666666664
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	2.region	97.22772277227723
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	0_n_mismatch_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	0_n_mismatch_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	0_n_indel_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	0_n_indel_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	0_n_total	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	1_n_mismatch_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	1_n_mismatch_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	1_n_indel_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	1_n_indel_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	1_n_total	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	2_n_mismatch_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	2_n_mismatch_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	2_n_indel_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	2_n_indel_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	alt	2_n_total	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	0_n_mismatch_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	0_n_mismatch_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	0_n_indel_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	0_n_indel_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	0_n_total	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	3_n_mismatch_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	3_n_mismatch_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	3_n_indel_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	3_n_indel_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	3_n_total	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	2_n_mismatch_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	2_n_mismatch_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	2_n_indel_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	2_n_indel_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	ref	2_n_total	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	0_n_mismatch_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	0_n_mismatch_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	0_n_indel_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	0_n_indel_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	0_n_total	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	3_n_mismatch_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	3_n_mismatch_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	3_n_indel_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	3_n_indel_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	3_n_total	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	2_n_mismatch_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	2_n_mismatch_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	2_n_indel_low	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	2_n_indel_high	0
+HG2_PB_PB10Xdip_8.SequenceDefinedVariant.1_10290-10352	HG002_Ill_150bp_300x	amb	2_n_total	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	count	187
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	weighted_count	97.67500000000005
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	overlap_0.alt_part	69.51336898395722
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	count_0.alt_part_pair	17
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	count_0.alt_part_seq	170
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	extension_0.alt_part	296.9946524064171
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	count	163
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	weighted_count	72.39999999999998
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	overlap_0.ref_part	89.09016393442623
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	overlap_1.ref_part	65.70469798657719
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	count_0.ref_part_seq	73
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	count_1.ref_part_seq	134
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	count_0.ref_part_pair	49
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	count_1.ref_part_pair	15
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	extension_0.ref_part	151.68852459016392
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	extension_1.ref_part	217.2281879194631
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GL_count	[-143.29018863   -1.72702558 -112.6001022 ]
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GQ_count	[  0. 200.   0.]
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GT_count	0/1
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GL_mapq	[-126.95414942   -1.86463915  -92.42780219]
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GQ_mapq	[  0. 200.   0.]
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GT_mapq	0/1
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GL_weighted	[-78.94361519  -2.01387446 -46.97477517]
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GQ_weighted	[  0. 200.   0.]
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x		GT_weighted	0/1
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	0.region	44.531007751937985
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	2.region	123.87328767123287
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	0.region	75.0119760479042
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	1.region	24.920731707317074
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	2.region	103.43457943925233
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	0_n_mismatch_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	0_n_mismatch_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	0_n_indel_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	0_n_indel_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	0_n_total	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	2_n_mismatch_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	2_n_mismatch_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	2_n_indel_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	2_n_indel_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	alt	2_n_total	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	0_n_mismatch_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	0_n_mismatch_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	0_n_indel_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	0_n_indel_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	0_n_total	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	1_n_mismatch_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	1_n_mismatch_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	1_n_indel_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	1_n_indel_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	1_n_total	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	2_n_mismatch_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	2_n_mismatch_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	2_n_indel_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	2_n_indel_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	ref	2_n_total	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	0_n_mismatch_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	0_n_mismatch_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	0_n_indel_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	0_n_indel_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	0_n_total	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	1_n_mismatch_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	1_n_mismatch_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	1_n_indel_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	1_n_indel_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	1_n_total	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	2_n_mismatch_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	2_n_mismatch_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	2_n_indel_low	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	2_n_indel_high	0
+HG4_Ill_svaba_1.del_1_10401	HG002_Ill_150bp_300x	amb	2_n_total	0
